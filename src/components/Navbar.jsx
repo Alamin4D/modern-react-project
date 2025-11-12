@@ -37,8 +37,7 @@ const Navbar = () => {
         <motion.button 
           variants={fadeIn('left', 0.3)}
           className="md:hidden p-2"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
+          onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? (
             <HiX className="h-6 w-6" />
           ) : (
