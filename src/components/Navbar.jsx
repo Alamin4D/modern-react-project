@@ -28,8 +28,7 @@ const Navbar = () => {
           className="flex items-center gap-1 cursor-pointer">
           <motion.div 
             whileHover={{ scale: 1.1 }}
-            className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
-          ></motion.div>
+            className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"></motion.div>
           <motion.div 
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-red-500 rounded-full -ml-2 hover:opacity-75 transition-opacity"
