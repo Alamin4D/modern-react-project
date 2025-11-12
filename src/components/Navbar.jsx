@@ -25,8 +25,7 @@ const Navbar = () => {
         {/* Logo */}
         <motion.div 
           variants={fadeIn('right', 0.3)}
-          className="flex items-center gap-1 cursor-pointer"
-        >
+          className="flex items-center gap-1 cursor-pointer">
           <motion.div 
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
