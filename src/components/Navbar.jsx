@@ -48,8 +48,7 @@ const Navbar = () => {
         {/* Navigation Links - Desktop */}
         <motion.div 
           variants={fadeIn('down', 0.3)}
-          className="hidden md:flex items-center gap-10"
-        >
+          className="hidden md:flex items-center gap-10">
           {navLinks.map((link, index) => (
             <motion.a 
               key={index}
